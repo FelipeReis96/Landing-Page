@@ -135,7 +135,10 @@ ul{
 .cont-phrases {
     margin: 60px;
     margin-left: 300px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 850px;
 }
 
