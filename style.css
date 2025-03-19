@@ -61,10 +61,11 @@ ul{
     font-weight: 900;
 }
 
-img {
+.teste {
     margin-right: 70px;    
     height: 200px;
     width: 400px;
+    border-radius: 15px;
 }
 
 .signup-btn {
@@ -78,4 +79,112 @@ img {
     border-radius: 5px;
     width: 110px;
     height: 35px;
+}
+
+.container-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    height: 470px;
+}
+
+.someInformation {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 35px;
+}
+
+.Photocards {
+    margin: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+.container-cards {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nemete {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card {
+ /* Garante que o elemento ocupe a largura total */
+    width: 100%; /* Faz o texto usar toda a largura disponível */
+    text-align: justify;
+}
+
+.container-phrase {
+    background-color: #E5E7EB;
+}
+
+.phrase {
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    height: 120px;
+}
+
+.cont-phrases {
+    margin: 60px;
+    margin-left: 300px;
+    align-items: center;
+    width: 850px;
+}
+
+.author {
+    margin-left: 650px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    height: 240px;
+    background-color: white;
+}
+
+.blue {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    background-color: #3287e2;
+    height: 120px;
+    width: 900px;
+    border-radius: 15px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 150px;
+}
+
+.texto-action {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.asking {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.lower-signup {
+    font-size: 19px;
+    color: white;
+    font-weight: 900;
+    background-color: #3287e2;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: white;
 }
