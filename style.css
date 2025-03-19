@@ -139,7 +139,10 @@ ul{
 }
 
 .author {
+    font-size: 20px;
+    font-weight: 500;
     margin-left: 650px;
+    color: #1F2937;
 }
 
 .signup-container {
@@ -157,7 +160,7 @@ ul{
     color: white;
     background-color: #3287e2;
     height: 120px;
-    width: 900px;
+    width: 800px;
     border-radius: 15px;
 }
 
@@ -178,7 +181,8 @@ ul{
     font-size: 19px;
 }
 
-.lower-signup {
+.lower-signup{
+    border: none;
     font-size: 19px;
     color: white;
     font-weight: 900;
@@ -186,5 +190,18 @@ ul{
     width: 110px;
     height: 35px;
     border-radius: 5px;
-    border-color: white;
+    border: 2px solid white;
+}
+
+.container-copy {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.texto-copy {
+    color: white;
+    font-size: 20px;
 }
